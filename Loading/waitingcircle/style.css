@@ -1,0 +1,30 @@
+h1 { 
+    font-style: oblique;
+    font-family: monospace;
+    text-align: center; 
+    margin-top: 50%;
+}
+
+body { 
+    background-color: pink;
+    animation-name: page;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes page {
+    50% {
+      background: hotpink;
+    }
+  }
+
+  img { 
+    width: 40%;
+    height: auto;  
+  }
+
+  .rocket {
+    position: absolute;
+    margin-left: 30%; 
+    margin-top: -40%; 
+  }

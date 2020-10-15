@@ -1,0 +1,26 @@
+body { 
+    background-color: pink
+}
+
+a { 
+    margin: auto; 
+    font-family: monospace;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
+    padding: 10px; 
+    display: flex; 
+    justify-content: center;
+  }
+
+  a:hover {
+    animation-name: click;
+    animation-duration: 0s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes click {
+      100% {
+          background-color: hotpink; 
+      }
+  }
