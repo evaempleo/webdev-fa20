@@ -1,6 +1,48 @@
+div, .one, .two { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 h1 { 
     color: pink; 
     display: flex; 
     justify-content: center;
 }
 
+div {
+    width: 100px;
+    height: 100px;
+    transition: width 2s;
+    background-color: lightblue;
+  }
+
+  div:hover { 
+      width: 300px; 
+  }
+
+.one { 
+    transition-timing-function: linear;
+    background-color: blue;
+}
+
+.two { 
+    transition-timing-function: ease;
+    background-color: pink; 
+    }
+    
+.three { 
+    transition-timing-function: ease-in;
+    background-color: yellow;
+    }
+
+.four { 
+    transition-timing-function: ease-out;
+    background-color: hotpink;
+    }
+
+.five { 
+    transition-timing-function: ease-in-out;
+    background-color: orange;
+    }
+  

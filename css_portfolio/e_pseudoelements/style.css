@@ -1,0 +1,22 @@
+body {
+    background-color: blue;
+  }
+
+h1 { 
+    color: white; 
+}
+
+h1::after {
+    content: url(../images/pseudo.png)
+  }
+
+
+p::first-line {
+    color: pink;
+    font-variant: small-caps;
+  }
+
+p::first-letter {
+    color: pink;
+    font-size: xx-large;
+  }
