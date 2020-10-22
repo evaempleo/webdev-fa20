@@ -1,0 +1,13 @@
+h1 { 
+    display: flex; 
+    color: blue; 
+    justify-content: center; 
+}
+
+.one { 
+    font-size: clamp(1rem, 2.5vw, 2rem); 
+}
+
+.two { 
+    font-size: clamp(1.5rem, 2.5vw, 4rem); 
+}

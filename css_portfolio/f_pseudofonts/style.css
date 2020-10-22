@@ -1,0 +1,13 @@
+h1 { 
+    color: blue; 
+}
+
+p::first-line {
+    color: pink;
+    font-variant: small-caps;
+  }
+
+p::first-letter {
+    color: pink;
+    font-size: xx-large;
+  }
