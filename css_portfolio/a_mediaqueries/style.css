@@ -1,14 +1,28 @@
 h1 { 
-    color: blue; 
-    font-size: 40px;
+    color: pink; 
+    font-size: 40px; 
+    display: flex; 
+    justify-content: center;
+}
+
+body {
+    background-color: blue;
+}
+
+div { 
+    color: white; 
+    display: flex; 
+    justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
     body {
-        background-color: lightblue;
+        background-color: pink;
     }
     h1 {
-        color: red; 
+        color: blue; 
         font-size: 20px;
+        display: flex; 
+        align-items: center;
     }
 }

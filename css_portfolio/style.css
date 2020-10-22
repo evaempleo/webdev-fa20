@@ -1,3 +1,58 @@
+h1, div {
+    display: flex; 
+    flex-direction: column;
+}
+
+h1 { 
+    display: flex; 
+    align-items: center;
+    color: pink; 
+}
+
+div {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img, .link { 
+    display: flex; 
+    flex-direction: column;
+}
+
 img {
     max-width: 200px; 
-}
+    border-radius: 5px;
+    background-color: #0F5897;
+    padding: 5px 10px 8px 10px;
+  }
+
+  img:hover {
+    animation-name: internet;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes internet {
+      100%{
+          background-color: pink;
+      }
+  }
+
+  .link {
+      display: flex; 
+      align-items: center;
+      color: blue; 
+  }
+
+  .link:hover {
+      animation-name: click;
+      animation-fill-mode: forwards;
+  }
+
+  @keyframes click {
+      100% { 
+          color: pink; 
+      }
+  }

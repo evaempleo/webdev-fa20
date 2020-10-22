@@ -1,0 +1,10 @@
+h1 { 
+    color: hotpink;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+body { 
+   background-image: url(../images/hippo.png);
+}
