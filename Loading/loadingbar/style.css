@@ -55,12 +55,12 @@ body {
 
     bottom: 15%;
     position: absolute;
-    -webkit-animation: linear infinite alternate;
-    -webkit-animation-name: run;
-    -webkit-animation-duration: 5s;
+    animation: linear infinite alternate;
+    animation-name: run;
+    animation-duration: 5s;
   }
 
-@-webkit-keyframes run {
+ @keyframes run {
     0% { left: 0;}
     50%{ left : 90%;}
     100%{ left: 0;}
