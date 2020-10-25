@@ -1,7 +1,11 @@
 h1 { 
     font-style: oblique;
     text-align: center; 
-    margin-top: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    margin-top: 500px; 
 }
 
 body { 
@@ -9,6 +13,10 @@ body {
     animation-name: page;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 @keyframes page {
@@ -17,13 +25,43 @@ body {
     }
   }
 
-  img { 
-    width: 40%;
-    height: auto;  
+  .bar { 
+    width: 500px; 
+    height: 100px; 
+    background-color: white;
+    border-radius: 30px; 
+    margin-top: 400px;
+    position: absolute;
+    z-index: -1;
+    animation-name: load;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
   }
 
-  .load {
-    position: absolute;
-    margin-left: 30%; 
-    margin-top: -40%; 
+  @keyframes load {
+    50% {
+      background: blue;
+    }
   }
+
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid lightblue;
+    position: absolute; 
+    z-index: 1; 
+
+    bottom: 15%;
+    position: absolute;
+    -webkit-animation: linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 5s;
+  }
+
+@-webkit-keyframes run {
+    0% { left: 0;}
+    50%{ left : 90%;}
+    100%{ left: 0;}
+}
