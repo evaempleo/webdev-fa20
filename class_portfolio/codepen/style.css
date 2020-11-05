@@ -1,0 +1,55 @@
+h1 { 
+    color: white;
+    font-family: monospace;
+  }
+  
+  h4 { 
+    color: white; 
+    font-size: 2em;
+  }
+  #smaller-image { 
+  width: 40%
+  }
+  
+  body {
+    margin: 0 auto;
+    max-width: 70em;
+    background-color: #f4d03f;
+  }
+  
+  a { 
+    font-size: 2em; 
+    margin: .5em; 
+  }
+  
+  .box {
+    font-family: monospace;
+    color: white;
+    font-size: 1.5em;
+    width: 19.70vw;
+    height: 15vh;
+    background: white;
+    border: 24px solid orange;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 10px;
+  }
+  
+  .link {
+    display: flex; 
+    align-items: center;
+    color: blue; 
+}
+
+.link:hover {
+    animation-name: click;
+    animation-fill-mode: forwards;
+}
+
+@keyframes click {
+    100% { 
+        color: pink; 
+    }
+}
+  

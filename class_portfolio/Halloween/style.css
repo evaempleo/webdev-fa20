@@ -118,3 +118,20 @@ body {
     bottom: 45px; 
     transform: scale(2);
 }
+
+.link {
+    display: flex; 
+    align-items: center;
+    color: blue; 
+}
+
+.link:hover {
+    animation-name: click;
+    animation-fill-mode: forwards;
+}
+
+@keyframes click {
+    100% { 
+        color: pink; 
+    }
+}
