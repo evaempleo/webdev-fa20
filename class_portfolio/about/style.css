@@ -2,8 +2,14 @@ div {
     display: flex; 
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 50%;
+    margin-top: 30%;
     font-size: xx-large;
+}
+
+p {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 body { 
