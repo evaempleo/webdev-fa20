@@ -1,0 +1,120 @@
+.link { 
+    background-color: white; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 { 
+    color: black; 
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center; 
+    background-color: orangered; 
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    background: url("https://www.backdropstyle.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/j/sj36.jpg")
+  }
+
+.box { 
+    width: 750px;
+    height: 300px;
+    background: orange;
+    border: 5px solid orangered;
+    padding: 20px;
+    position: absolute;
+}
+
+.box2 { 
+    width: 750px;
+    height: 300px;
+    background: black;
+    border: 5px solid orangered;
+    padding: 20px;
+    position: absolute;
+    bottom: 10px;
+
+}
+
+.pumpkin { 
+    transform: scale(2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+}
+
+.ghost {
+    transform: scale(.5);
+}
+
+.alien {
+    position: absolute; 
+    top: 50px;
+    left: 500px;
+}
+
+.pumpkindance {
+    position: absolute;
+    top: 200px;
+    right: 10px;
+}
+
+.clown {
+    position: absolute;
+    transform: scale(3);
+    top: 100px;
+    left: 260px;
+}
+
+.marvin {
+    position: absolute;
+    transform: scale(.5);
+}
+
+.nascar {
+    position: absolute;
+    transform: scale(1.2);
+}
+
+.cowgirl {
+    position: absolute; 
+    right: 20px; 
+    transform: scale(1.2);
+}
+
+.ninja {
+    position: absolute; 
+    right: 375px;
+}
+
+.ursula {
+    position: absolute; 
+    right: 187.5px;
+    bottom: 10px;
+}
+
+.dragon {
+    position: absolute; 
+    left: 200px;
+    bottom: 45px; 
+    transform: scale(2);
+}
