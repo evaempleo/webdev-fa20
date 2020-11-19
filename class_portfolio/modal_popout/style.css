@@ -3,15 +3,16 @@
 }
 
 .link:hover {
-    animation-name: click;
-    animation-fill-mode: forwards;
+    /* animation-name: click;
+    animation-fill-mode: forwards; */
+    color: pink;
 }
 
-@keyframes click {
+/* @keyframes click {
     100% { 
         color: pink; 
     }
-}
+} */
 .box { 
     background: orangered;
     height: 100px; 

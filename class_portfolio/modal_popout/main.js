@@ -1,5 +1,6 @@
 
 $('.box').click(function(){
-    $(".box").addClass("animated shake");
+    console.log("clicked!")
+    $(".box").addClass("animate__animated animate__shakeY");
 
 });
