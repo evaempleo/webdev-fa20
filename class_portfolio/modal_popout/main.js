@@ -1,3 +1,5 @@
-$(".box").addClass("animated shake");
 
+$('.box').click(function(){
+    $(".box").addClass("animated shake");
 
+});
